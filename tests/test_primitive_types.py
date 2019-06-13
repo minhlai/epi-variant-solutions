@@ -14,3 +14,6 @@ def test_is_pow_two():
     assert is_pow_two(3) == False
     assert is_pow_two(5) == False
     assert is_pow_two(6) == False
+
+def test_swap_bits():
+    assert swap_bits(73, 1, 6) == 11
